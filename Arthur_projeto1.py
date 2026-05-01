@@ -63,7 +63,7 @@ elif copa == "1962":
     st.image("https://pbs.twimg.com/media/FiAkFK3WIAMzJ7i.jpg", caption="Os jogadores do Botafogo na Seleção")
 
 elif copa == "1970":
-st.title("🌍 1970: O auge do futebol arte")
+    st.title("O auge do futebol arte:")
 
     st.image("https://upload.wikimedia.org/wikipedia/commons/7/74/Brazil_1970.JPG", caption="Seleção Brasileira de 1970")
 
