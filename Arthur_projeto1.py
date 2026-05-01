@@ -7,7 +7,4 @@ st.write("O Botafogo é um dos clube mais tradicionais do brasil, sendo respons�
 st.image('https://s2-oglobo.glbimg.com/5mQLlKwt25ljz6ZCj0RXzCuOBzI=/0x0:2000x1194/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/q/e/zhOyUtR5Kw92vopn1zAw/arte-40-.png' , caption='Jairzinho, Luiz Henrique e Igor Jesus')
 
 nome= st.text_input('Fale o maior jogador do Botafogo que passou pela seleção:')
-if nome = garrincha:
-  st.write(nome,'foi um dos maiores futebolistas que já passaram pela seleção brasileira. Além de ter sido o principal nome da Copa do MUndo de 1962.')
-else:
-  break
+
