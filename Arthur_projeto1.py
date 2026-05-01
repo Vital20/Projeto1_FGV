@@ -39,7 +39,7 @@ if copa == "1958":
         st.image("https://terceirotempo.uol.com.br/imagens/31/71/w500_h140_qfl_fto_13171.webp", caption="Nilton Santos", use_container_width=True)
         
 elif copa == "1962":
-    st.tittle("A SELEFOGO:")
+    st.title("A SELEFOGO:")
               
     st.image("https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2019/03/12/5c879f3beafe5.jpeg", caption="Seleção de 1962")
 
