@@ -65,7 +65,7 @@ elif copa == "1962":
 elif copa == "1970":
     st.title("O auge do futebol arte:")
 
-    st.image("https://upload.wikimedia.org/wikipedia/commons/7/74/Brazil_1970.JPG", caption="Seleção Brasileira de 1970")
+    st.image("https://crfb.museudofutebol.org/anexos/imagem/511247/w:640/h:640/c:0", caption="Seleção Brasileira de 1970")
 
     st.write("""
     Se 1962 foi a 'Selefogo', 1970 foi o auge do futebol arte.
@@ -84,13 +84,9 @@ elif copa == "1970":
     A consagração do futebol brasileiro para o mundo.
     """)
 
-    st.image(
-        "https://upload.wikimedia.org/wikipedia/commons/3/3e/Jairzinho_1970.jpg",
-        caption="Jairzinho - o Furacão da Copa",
-        use_container_width=True
-    )
+    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49c4Wwq9NXmeD5NWVMUoCepaoxojOY1IUwQ&s",caption="Jairzinho - o Furacão da Copa",use_container_width=True)
 
-    st.success("⚫⚪ Jairzinho marcou em todos os jogos da Copa de 1970 — um feito histórico.")
+    st.success("Jairzinho marcou em todos os jogos da Copa de 1970 — um feito histórico.")
 
 
 
