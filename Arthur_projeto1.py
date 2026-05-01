@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+st.sidebar.title("Navegação")
+st.sidebar.write("Explore as Copas e o impacto do Botafogo!")
 
 st.title('Botafogo em Copas do Mundo da Seleção brasileira')
 st.subheader('Por: Arthur Vital')
@@ -11,7 +13,7 @@ Mas como essa relação começou? E por que o clube é tão importante nesse con
 
 st.image('https://s2-oglobo.glbimg.com/5mQLlKwt25ljz6ZCj0RXzCuOBzI=/0x0:2000x1194/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/q/e/zhOyUtR5Kw92vopn1zAw/arte-40-.png' , caption='Jairzinho, Luiz Henrique e Igor Jesus')
 
-st.write("Veja o gráfico da quantidade de jogadores no time titular de cada ano da seleção que pertencia ao Botafogo de Futebol e Regatas")
+st.write("Veja o gráfico da quantidade de jogadores no time titular de cada ano da seleção que pertencia ao Botafogo de Futebol e Regatas:")
 
 dados = pd.DataFrame({
     "Copa": ["1958", "1962", "1970"],
