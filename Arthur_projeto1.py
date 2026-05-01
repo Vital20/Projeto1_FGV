@@ -29,11 +29,3 @@ if copa == "1958":
     Garrincha, principalmente, foi decisivo nos momentos mais importantes, sendo considerado um dos grandes nomes
     daquela conquista. Já Nilton Santos criou a posição "lateral", apoiando o ataque de forma inédita.
     """)
-
-elif copa == "1962":
-    st.image("URL_IMAGEM_1962", caption="Seleção de 1962")
-    st.write("O clube novamente foi essencial...")
-
-elif copa == "1970":
-    st.image("URL_IMAGEM_1970", caption="Jairzinho - 1970")
-    st.write("Jairzinho marcou em todos os jogos.")
