@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 st.title('Botafogo em Copas do Mundo da Seleção brasileira')
 st.subheader('Por: Arthur Vital')
@@ -87,6 +88,13 @@ elif copa == "1970":
     st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49c4Wwq9NXmeD5NWVMUoCepaoxojOY1IUwQ&s",caption="Jairzinho - o Furacão da Copa",use_container_width=True)
 
     st.success("Jairzinho marcou em todos os jogos da Copa de 1970 — um feito histórico.")
+
+dados = pd.DataFrame({
+    "Copa": ["1958", "1962", "1970"],
+    "Jogadores do Botafogo": [2, 5, 1]
+})
+
+st.bar_chart(dados.set_index("Copa"))
 
 
 
