@@ -11,5 +11,9 @@ Mas como essa relação começou? E por que o clube é tão importante nesse con
 st.image('https://s2-oglobo.glbimg.com/5mQLlKwt25ljz6ZCj0RXzCuOBzI=/0x0:2000x1194/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/q/e/zhOyUtR5Kw92vopn1zAw/arte-40-.png' , caption='Jairzinho, Luiz Henrique e Igor Jesus')
 st.divider()
 
-# 📜 Seção histórica interativa
-st.header("📜 Momentos históricos")
+st.header("Momentos históricos: ")
+
+copa = st.selectbox(
+    "Escolha uma Copa do Mundo",
+    ["1958", "1962", "1970"]
+)
