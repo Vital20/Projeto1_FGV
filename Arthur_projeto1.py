@@ -33,7 +33,7 @@ if copa == "1958":
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image("https://aventurasnahistoria.com.br/wp-content/uploads/esportes/mfdsantos-garrincha.jpg", caption="Garrincha", use_container_width=True)
+        st.image("https://auniao.pb.gov.br/noticias/caderno_esporte/morte-de-mane-garrincha-que-jogou-tambem-por-times-paraibanos-completa-34-anos/mane.jpg/@@images/7b153cd0-2c8c-4f4e-9e0b-ed17a5f7abc9.jpeg", caption="Garrincha", use_container_width=True)
 
     with col2:
         st.image("https://terceirotempo.uol.com.br/imagens/31/71/w500_h140_qfl_fto_13171.webp", caption="Nilton Santos", use_container_width=True)
