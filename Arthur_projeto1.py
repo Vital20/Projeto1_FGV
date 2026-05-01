@@ -9,7 +9,6 @@ pagina = st.sidebar.selectbox(
     ["História (Copas)", "Rumo a 2026"]
 )
 
-# ✅ CORRIGIDO AQUI
 if pagina == "História (Copas)":
 
     st.title('Botafogo em Copas do Mundo da Seleção brasileira')
