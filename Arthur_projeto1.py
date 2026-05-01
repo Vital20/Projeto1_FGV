@@ -26,14 +26,49 @@ if copa == "1958":
     Impossível não destacar Garrincha e Nilton Santos, eles foram fundamentais na campanha, trazendo um estilo de jogo ofensivo,
     técnico e criativo que encantou o mundo.
     
-    Garrincha, principalmente, foi decisivo nos momentos mais importantes, sendo considerado um dos grandes nomes
-    daquela conquista. Já Nilton Santos criou a posição "lateral", apoiando o ataque de forma inédita.
+    Garrincha, principalmente, foi decisivo nos momentos mais importantes - destruiu a seleção da URSS. Foi considerado um dos grandes nomes
+    daquela conquista. Já Nilton Santos criou a posição "lateral", apoiando o ataque de uma forma nunca vista antes.
     """)
-    # 👇 AQUI entram as imagens depois do texto
+    
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image("https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2022/12/01/1261386654-garrincha-drible.jpg", caption="Garrincha", use_container_width=True)
+        st.image("https://aventurasnahistoria.com.br/wp-content/uploads/esportes/mfdsantos-garrincha.jpg", caption="Garrincha", use_container_width=True)
 
     with col2:
         st.image("https://terceirotempo.uol.com.br/imagens/31/71/w500_h140_qfl_fto_13171.webp", caption="Nilton Santos", use_container_width=True)
+        
+elif copa == "1962":
+    st.tittle("A SELEFOGO:")
+              
+    st.image("https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2019/03/12/5c879f3beafe5.jpeg", caption="Seleção de 1962")
+
+    st.write("""
+    Pelé se lesiona... e agora? Quem irá levar o Brasil ao troféu?
+
+    PERDEU, MANÉ! Garrincha foi o nome da Copa. O Ponta do Botafogo, assumiu o protagonismo e protagonizou uma das maiores atuações individuais da história das Copas.
+
+    A Seleção de 1962 tinha uma base MUITO forte do Botafogo. Em vários momentos,
+    o time titular contava com diversos jogadores do clube - Garrincha, Nilton Santos, Didi, Amarildo e Zagallo. Isso mostra o nível absurdo
+    daquele elenco alvinegro na época.
+
+    Era um time extremamente coletivo que contavam com diversos craques
+    """)
+
+     st.image("https://pbs.twimg.com/media/FiAkFK3WIAMzJ7i.jpg", caption="Os jogadores do Botafogo na Seleção")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
