@@ -9,7 +9,8 @@ pagina = st.sidebar.selectbox(
     ["História (Copas)", "Rumo a 2026"]
 )
 
-if pagina == "História em Copas":
+# ✅ CORRIGIDO AQUI
+if pagina == "História (Copas)":
 
     st.title('Botafogo em Copas do Mundo da Seleção brasileira')
     st.subheader('Por: Arthur Vital')
@@ -139,8 +140,6 @@ if pagina == "História em Copas":
         else:
             st.warning("👀")
 
-# 2026
-
 elif pagina == "Rumo a 2026":
     st.title("Botafogo rumo à Copa de 2026:")
 
@@ -165,17 +164,3 @@ elif pagina == "Rumo a 2026":
         st.subheader("Igor Jesus")
         st.image("https://meubotafogo.com.br/wp-content/uploads/2024/10/54089673649_2538fdf4b8_c.jpg")
         st.write("Ex-Botafogo e um dos protagonistas de 2024 que vem sendo um dos observados para a Copa")
-
-
-
-
-
-
-
-
-
-
-
-
-
-              
