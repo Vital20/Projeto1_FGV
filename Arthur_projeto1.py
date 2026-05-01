@@ -19,6 +19,8 @@ copa = st.selectbox(
 )
 
 if copa == "1958":
+    st.title("O começo de tudo:")
+    
     st.image("https://crfb.museudofutebol.org/anexos/imagem/499456/w:640/h:640/c:0", caption="Seleção de 1958")
     st.write("""
     A Copa de 1958 marca o início de uma hegemonia do futebol brasileiro no mundo, e o Botafogo teve papel crucial nisso.
@@ -45,20 +47,50 @@ elif copa == "1962":
 
     st.write("""
     Pelé se lesiona... e agora? Quem irá levar o Brasil ao troféu?
+    
 
     PERDEU, MANÉ! Garrincha foi o nome da Copa. O Ponta do Botafogo, assumiu o protagonismo e protagonizou uma das maiores atuações individuais da história das Copas.
+
 
     A Seleção de 1962 tinha uma base MUITO forte do Botafogo. Em vários momentos,
     o time titular contava com diversos jogadores do clube - Garrincha, Nilton Santos, Didi, Amarildo e Zagallo. Isso mostra o nível absurdo
     daquele elenco alvinegro na época.
+
 
     Era um time extremamente coletivo que contavam com diversos craques
     """)
 
     st.image("https://pbs.twimg.com/media/FiAkFK3WIAMzJ7i.jpg", caption="Os jogadores do Botafogo na Seleção")
 
+elif copa == "1970":
+st.title("🌍 1970: O auge do futebol arte")
 
+    st.image("https://upload.wikimedia.org/wikipedia/commons/7/74/Brazil_1970.JPG", caption="Seleção Brasileira de 1970")
 
+    st.write("""
+    Se 1962 foi a 'Selefogo', 1970 foi o auge do futebol arte.
+
+    A Seleção Brasileira chegou no México com um dos times mais talentosos de toda a história,
+    e no meio de tantos craques, tinha um jogador do Botafogo que fez história:
+
+    Jairzinho.
+
+    O ponta herdou a camisa 7, de botafoguense para botafoguense, e fez algo que até hojeninguém mais conseguiu:
+    marcou gol em TODOS os jogos da Copa do Mundo.
+
+    Mesmo em uma seleção recheada de lendas como Pelé, Tostão e Rivelino,
+    o jogador do Botafogo teve protagonismo real.
+
+    A consagração do futebol brasileiro para o mundo.
+    """)
+
+    st.image(
+        "https://upload.wikimedia.org/wikipedia/commons/3/3e/Jairzinho_1970.jpg",
+        caption="Jairzinho - o Furacão da Copa",
+        use_container_width=True
+    )
+
+    st.success("⚫⚪ Jairzinho marcou em todos os jogos da Copa de 1970 — um feito histórico.")
 
 
 
