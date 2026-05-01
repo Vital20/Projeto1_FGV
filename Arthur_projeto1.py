@@ -27,20 +27,22 @@ if copa == "1958":
     A Copa de 1958 marca o início de uma hegemonia do futebol brasileiro no mundo, e o Botafogo teve papel crucial nisso.
     
     Impossível não destacar Garrincha e Nilton Santos, eles foram fundamentais na campanha, trazendo um estilo de jogo ofensivo,
-    técnico e criativo que encantou o mundo.
+    técnico e criativo que encantou o mundo. Além deles, Didi, que foi eleito o melhor jogador da Copa de 1958 também era o jogador do glorioso.
     
-    Garrincha, principalmente, foi decisivo nos momentos mais importantes - destruiu a seleção da URSS. Foi considerado um dos grandes nomes
+    Falando de Garrincha, ele foi decisivo nos momentos mais importantes - destruiu a seleção da URSS. Foi considerado um dos grandes nomes
     daquela conquista. Já Nilton Santos criou a posição "lateral", apoiando o ataque de uma forma nunca vista antes.
     """)
     
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         st.image("https://auniao.pb.gov.br/noticias/caderno_esporte/morte-de-mane-garrincha-que-jogou-tambem-por-times-paraibanos-completa-34-anos/mane.jpg/@@images/7b153cd0-2c8c-4f4e-9e0b-ed17a5f7abc9.jpeg", caption="Garrincha", use_container_width=True)
 
     with col2:
         st.image("https://terceirotempo.uol.com.br/imagens/31/71/w500_h140_qfl_fto_13171.webp", caption="Nilton Santos", use_container_width=True)
-        
+
+    with col3:
+        st.image("https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2022/11/30/1732884753-didi-selecao-brasileira.jpeg", caption="Didi", use_container_width=True)
 elif copa == "1962":
     st.title("A SELEFOGO:")
               
@@ -91,7 +93,7 @@ elif copa == "1970":
 
 dados = pd.DataFrame({
     "Copa": ["1958", "1962", "1970"],
-    "Jogadores do Botafogo": [2, 5, 1]
+    "Jogadores do Botafogo": [3, 5, 1]
 })
 
 st.bar_chart(dados.set_index("Copa"))
