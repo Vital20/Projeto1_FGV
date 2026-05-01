@@ -17,3 +17,23 @@ copa = st.selectbox(
     "Escolha uma Copa do Mundo",
     ["1958", "1962", "1970"]
 )
+
+if copa == "1958":
+    st.image("https://crfb.museudofutebol.org/anexos/imagem/499456/w:640/h:640/c:0", caption="Seleção de 1958")
+    st.write("""
+    A Copa de 1958 marca o início de uma hegemonia do futebol brasileiro no mundo, e o Botafogo teve papel crucial nisso.
+    
+    Jogadores como Garrincha e Nilton Santos foram fundamentais na campanha, trazendo um estilo de jogo ofensivo,
+    técnico e criativo que encantou o mundo.
+    
+    Garrincha, principalmente, foi decisivo nos momentos mais importantes, sendo considerado um dos grandes nomes
+    daquela conquista. Já Nilton Santos criou a posição "lateral", apoiando o ataque de forma inédita.
+    """)
+
+elif copa == "1962":
+    st.image("URL_IMAGEM_1962", caption="Seleção de 1962")
+    st.write("O clube novamente foi essencial...")
+
+elif copa == "1970":
+    st.image("URL_IMAGEM_1970", caption="Jairzinho - 1970")
+    st.write("Jairzinho marcou em todos os jogos.")
