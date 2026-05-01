@@ -75,7 +75,7 @@ elif copa == "1970":
 
     Jairzinho.
 
-    O ponta herdou a camisa 7, de botafoguense para botafoguense, e fez algo que até hojeninguém mais conseguiu:
+    O ponta herdou a camisa 7, de botafoguense para botafoguense, e fez algo que até hoje ninguém mais conseguiu:
     marcou gol em TODOS os jogos da Copa do Mundo.
 
     Mesmo em uma seleção recheada de lendas como Pelé, Tostão e Rivelino,
