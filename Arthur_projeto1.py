@@ -55,7 +55,7 @@ elif copa == "1962":
     Era um time extremamente coletivo que contavam com diversos craques
     """)
 
-     st.image("https://pbs.twimg.com/media/FiAkFK3WIAMzJ7i.jpg", caption="Os jogadores do Botafogo na Seleção")
+    st.image("https://pbs.twimg.com/media/FiAkFK3WIAMzJ7i.jpg", caption="Os jogadores do Botafogo na Seleção")
 
 
 
