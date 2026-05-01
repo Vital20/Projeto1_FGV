@@ -9,14 +9,13 @@ pagina = st.sidebar.selectbox(
     ["História (Copas)", "Rumo a 2026"]
 )
 
-if pagina == "História (Copas)":
+if pagina == "História em Copas":
 
     st.title('Botafogo em Copas do Mundo da Seleção brasileira')
     st.subheader('Por: Arthur Vital')
 
     st.write("""
-    O Botafogo é um dos clubes mais tradicionais do Brasil, sendo peça fundamental
-    em momentos históricos da Seleção Brasileira, especialmente nas Copas do Mundo.
+    O Botafogo é um dos clubes mais tradicionais do Brasil, sendo peça fundamentalem momentos históricos da Seleção Brasileira, especialmente nas Copas do Mundo.
     Mas como essa relação começou? E por que o clube é tão importante nesse contexto?
     """)
 
@@ -24,11 +23,9 @@ if pagina == "História (Copas)":
 
     st.write("Veja o gráfico da quantidade de jogadores no time titular de cada ano da seleção que pertencia ao Botafogo de Futebol e Regatas:")
 
-    # 👉 NÃO alterei seu gráfico
     dados = pd.DataFrame({
         "Copa": ["1958", "1962", "1970"],
-        "Jogadores do Botafogo": [3, 5, 1]
-    })
+        "Jogadores do Botafogo": [3, 5, 1]})
 
     st.bar_chart(dados.set_index("Copa"))
 
@@ -114,16 +111,14 @@ if pagina == "História (Copas)":
 
         st.success("Jairzinho marcou em todos os jogos da Copa de 1970 — um feito histórico.")
 
-    # QUIZ
     st.divider()
-    st.header("🧠 Quiz do torcedor")
+    st.header("Sem voltar pra ler, quiz do torcedor")
 
     pontuacao = 0
 
     q1 = st.radio(
         "Quem marcou em todos os jogos da Copa de 1970?",
-        ["Pelé", "Jairzinho", "Tostão"]
-    )
+        ["Pelé", "Jairzinho", "Tostão"])
 
     if q1 == "Jairzinho":
         pontuacao += 1
@@ -140,16 +135,14 @@ if pagina == "História (Copas)":
         st.write(f"Pontuação: {pontuacao}/2")
 
         if pontuacao == 2:
-            st.success("🔥 Você é raiz do Fogão!")
+            st.success("Sabe muito")
         else:
-            st.warning("👀 Dá pra melhorar!")
+            st.warning("👀")
 
-# ===========================
 # 2026
-# ===========================
 
 elif pagina == "Rumo a 2026":
-    st.title("🌍 Botafogo rumo à Copa de 2026")
+    st.title("Botafogo rumo à Copa de 2026:")
 
     st.write("""
     Se no passado o Botafogo foi protagonista, agora a pergunta é:
@@ -160,23 +153,18 @@ elif pagina == "Rumo a 2026":
 
     with col1:
         st.subheader("Danilo")
-        st.write("Promessa que pode aparecer na próxima Copa.")
+        st.image("https://i.metroimg.com/OeCs287XzArnqE9vtRDd92NLAXBhD-TatkL6GxIvm50/w:900/q:85/f:webp/plain/https://images.metroimg.com/2026/01/55068194828_bc5100abaa_k.jpg")
+        st.write("Certamente vai próxima Copa, prinicipal jogador do atual elenco de 26.")
 
     with col2:
         st.subheader("Luiz Henrique")
-        st.write("Grande fase, forte candidato.")
+        st.image("https://jpimg.com.br/uploads/2024/11/luiz-henrique-676x450.jpg")
+        st.write("Ex-jogador do Botafogo e um dos principais jogadores da campanha histórica de 2024")
 
     with col3:
         st.subheader("Igor Jesus")
-        st.write("Vem sendo observado.")
-
-    voto = st.radio(
-        "Quem você acha que vai pra Copa?",
-        ["Danilo", "Luiz Henrique", "Igor Jesus"]
-    )
-
-    if st.button("Votar"):
-        st.success(f"Você votou em {voto}!")
+        st.image("https://meubotafogo.com.br/wp-content/uploads/2024/10/54089673649_2538fdf4b8_c.jpg")
+        st.write("Ex-Botafogo e um dos protagonistas de 2024 que vem sendo um dos observados para a Copa")
 
 
 
