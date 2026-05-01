@@ -10,6 +10,16 @@ Mas como essa relação começou? E por que o clube é tão importante nesse con
 """)
 
 st.image('https://s2-oglobo.glbimg.com/5mQLlKwt25ljz6ZCj0RXzCuOBzI=/0x0:2000x1194/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/q/e/zhOyUtR5Kw92vopn1zAw/arte-40-.png' , caption='Jairzinho, Luiz Henrique e Igor Jesus')
+
+st.write("Veja o gráfico da quantidade de jogadores no time titular de cada ano da seleção que pertencia ao Botafogo de Futebol e Regatas")
+
+dados = pd.DataFrame({
+    "Copa": ["1958", "1962", "1970"],
+    "Jogadores do Botafogo": [3, 5, 1]
+})
+
+st.bar_chart(dados.set_index("Copa"))
+
 st.divider()
 
 st.header("Momentos históricos: ")
@@ -91,12 +101,6 @@ elif copa == "1970":
 
     st.success("Jairzinho marcou em todos os jogos da Copa de 1970 — um feito histórico.")
 
-dados = pd.DataFrame({
-    "Copa": ["1958", "1962", "1970"],
-    "Jogadores do Botafogo": [3, 5, 1]
-})
-
-st.bar_chart(dados.set_index("Copa"))
 
 
 
