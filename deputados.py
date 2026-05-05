@@ -12,3 +12,13 @@ if partido:
     filtrado = filtrado[filtrado['sexo'] == sexo]
 
     st.dataframe(filtrado)
+
+    contagem = filtrado['sexo'].value_counts()
+
+    fig, ax = plt.subplots()
+    ax.bar(contagem.index, contagem.values)
+    ax.set_title('Quantidade por sexo')
+    ax.set_xlabel('Sexo')
+    ax.set_ylabel('Quantidade')
+
+    st.pyplot(fig)
