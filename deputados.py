@@ -1,9 +1,6 @@
 import streamlit as st 
 import pandas as pd
 
-df= pd.read_csv('deputados_2022.csv')
-st.dataframe(df)
-
 st.title('Buscador de deputados por partido:')
 partido = st.text_input('Digite a sigla do partido: ')
 
