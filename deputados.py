@@ -9,7 +9,6 @@ sexo = st.selectbox('Qual o sexo?', ('M', 'F'))
 
 if partido:
     filtrado = df[df['partido'].str.upper() == partido.upper()]
-    st.dataframe(filtrado)
     filtrado = filtrado[filtrado['sexo'] == sexo]
 
     st.dataframe(filtrado)
