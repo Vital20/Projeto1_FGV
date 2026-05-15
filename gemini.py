@@ -1,6 +1,5 @@
-# Configura a API Key do Google Gemini e grava em uma variável de ambiente
-import os
-from google.colab import userdata
+import streamlit as st
+import pandas as pd
 
 os.environ["GOOGLE_API_KEY"] = userdata.get('GeminiAPI')
 
