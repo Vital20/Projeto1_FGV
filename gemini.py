@@ -1,5 +1,3 @@
-!pip install google-genai
-
 # Configura a API Key do Google Gemini e grava em uma variável de ambiente
 import os
 from google.colab import userdata
