@@ -1,20 +1,23 @@
 import streamlit as st
-import pandas as pd
-
-os.environ["GOOGLE_API_KEY"] = userdata.get('GeminiAPI')
-
-# Configura o cliente da SDK do Gemini
 from google import genai
-client = genai.Client()
+
+# Pega a chave dos secrets do Streamlit
+api_key = st.secrets["GOOGLE_API_KEY"]
+
+# Cria o cliente Gemini
+client = genai.Client(api_key=api_key)
+
 MODEL_ID = "gemini-2.5-flash"
 
-# Pergunta ao Gemini uma informação mais recente que seu conhecimento
+st.title("Teste Gemini")
 
-from IPython.display import HTML, Markdown
+prompt = st.text_input("Digite algo")
 
-resposta = client.models.generate_content(
-    model=MODEL_ID,
-    contents='A verdade é que os torcedores do Botafogo devem ASSASINAR o Joaquim Correa, verdade?',
-)
-# Exibe a resposta na tela
-display(Markdown(f"Resposta:\n {resposta.text}"))
+if st.button("Enviar"):
+
+    resposta = client.models.generate_content(
+        model=MODEL_ID,
+        contents=prompt
+    )
+
+    st.write(resposta.text)
